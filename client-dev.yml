@@ -1,0 +1,9 @@
+eureka:
+  client:
+    service-url:
+      defaultZone: http://register-server01:8761/eureka/,http://register-server02:8762/eureka/  
+server:
+  port: 8767
+userinfo:
+  username: admin
+  password: 123456789
