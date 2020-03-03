@@ -1,0 +1,10 @@
+#服务器发现注册配置
+eureka:
+  client:
+    service-url:
+      defaultZone: http://register-server01:8761/eureka/,http://register-server02:8762/eureka/
+spring:
+  application:
+    name: cloud-business
+server:
+  port: 8767
